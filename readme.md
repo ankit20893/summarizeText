@@ -21,7 +21,7 @@ The algorithm of this implementation is:
 
 ## Install
 ```
-composer require summarizeText
+composer require ankit20893/summarize-text
 ```
 
 ## Test
