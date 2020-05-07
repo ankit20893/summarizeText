@@ -1,0 +1,28 @@
+{
+    "name": "summarize text",
+    "description": "summarizeText (automatic text summarization) for PHP7",
+    "keywords": ["ankit20893", "summarize-hindi", "automatic", "summarization", "PHP7", "strict"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ankit Singh",
+            "email": "ankit20893@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "7.*",
+        "ext-ctype": "*",
+        "ext-mbstring": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "summarizeText\\": ["src/", "tests/"]
+        }
+    },
+    "scripts": {
+        "test": "phpunit --colors='always' $(pwd)/tests"
+    }
+}
