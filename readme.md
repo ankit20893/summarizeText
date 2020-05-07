@@ -2,8 +2,6 @@
 
 This source code can summarize a text, article for example to a short paragraph. Before it would start the summarizing it removes the junk words what are defined in the Stopwords namespace. It is possible to extend it with another languages.
 
-<img src="http://iceducation.ca/wp-content/uploads/2018/01/Science.png" />
-
 ## Authors, Contributors
 
 Name | GitHub user
